@@ -1,0 +1,2 @@
+# collectathon
+ Collectables for FiveM
