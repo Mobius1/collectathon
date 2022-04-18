@@ -550,7 +550,7 @@ function Collectathon:CleanUp()
     for k, quest in pairs(self.cfg.Collectables) do
         table.insert(collected, quest.Prop)
 
-        for _, item in ipairs(quest.Items) do
+        for _, item in ipairs(quest.items) do
             if item.Prop then
                 if not InTable(collected, item.Prop) then
                     table.insert(collected, item.Prop)
